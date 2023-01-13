@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d3d3d3d3;
+}
+
+.section-01 {
+    margin: 7vh;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 7vh;
+}
+
+h3 {
+    margin-top: 5vh;
+    font-size: 4vh;
+}
+
+p {
+    font-size: 3vh;
+
+}
+
+button {
+    border-radius: 5vh;
+    border: 1px solid black;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .section-01 {
+        margin: 3vh;
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 6vh;
+    }
+
+    h3 {
+        margin-top: 4vh;
+        font-size: 19px;
+    }
+
+    iframe {
+        width: 222px;
+        height: 118px;
+        margin: 4px;
+    }
+}
